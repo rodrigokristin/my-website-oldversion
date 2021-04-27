@@ -90,7 +90,6 @@ hr {
 
 #about, #works, #contact, #end { height: 5.5rem; }
 
-
 /*LOGO*/
 logo {
   z-index: 2;
@@ -425,6 +424,7 @@ header .box { margin-top: 2rem; }
 /*CONTACT SECTION*/
 .contact-box {
   margin-bottom: 15vw;
+  position: relative;
   height: auto;
   display: flex;
   justify-content: flex-end;
@@ -484,10 +484,10 @@ header .box { margin-top: 2rem; }
 .bg-detail-2 {
   position: absolute;
   right: 10%;
-  top: -5%;
+  top: -35%;
   z-index: -2;
   width: 45vw;
-  height: 135%;
+  height: 180%;
   transform: skew(-20deg);
   background-color: rgba(195,168,152, 0.8);
 }
@@ -623,8 +623,6 @@ footer .row:last-child p { font-size: 0.8rem; }
     font-size: 0.8rem;
   }
 
-  .bg-detail-2 { height: 140%; }
-
   footer .row:last-child p { font-size: 0.6rem; }
 }
 
@@ -721,9 +719,7 @@ footer .row:last-child p { font-size: 0.8rem; }
 
   .works-description p { padding: 0.5rem; }
 
-  .works-text {
-    width: 100%;
-  }
+  .works-text { width: 100%; }
 
   .tools-text {
     position: absolute;
@@ -760,7 +756,12 @@ footer .row:last-child p { font-size: 0.8rem; }
 
   .contact-box .text-box { background-color: #F9F3EF; }
 
-  .bg-detail-2 { width: 70%; }
+  .btn { right: 10%; }
+
+  .bg-detail-2 {
+    width: 80%;
+    height: 100%;
+  }
 
   footer .text-box { width: 100%; }
 
@@ -809,14 +810,8 @@ footer .row:last-child p { font-size: 0.8rem; }
 
   .btn {
     top: 95%;
-    right: 10%;
     width: 10rem;
     font-size: 0.6rem;
-  }
-
-  .bg-detail-2 {
-    width: 80%;
-    height: 80%;
   }
 }
 
