@@ -395,7 +395,7 @@ input:not(:checked) + label {
 .hovercontent {
   background-color: #8B5A52;
   position: absolute;
-  top: 15vw;
+  top: 16vw;
   left:0;
   right: 0;
   margin: auto;
@@ -408,6 +408,8 @@ input:not(:checked) + label {
   color: white;
   width: 80%;
 }
+
+.graphic .hovercontent { top: 18vw; }
 
 .project:hover .overlay {
   background-color: white;
@@ -825,6 +827,13 @@ footer .row:last-child p { font-size: 0.8rem; }
     width: 70%;
     margin: 0 15%;
   }
+  
+  .hovercontent { width: 100%; }
+
+  .graphic .hovercontent {
+    top: 35%;
+    width: 70%;
+  }
 
   .btn {
     top: 95%;
@@ -860,7 +869,7 @@ footer .row:last-child p { font-size: 0.8rem; }
     height: 35rem;
   }
 
-  .hovercontent { top: 35%; }
+  .hovercontent, .graphic .hovercontent { top: 40%; }
 
   .bg-detail-2 { width: 40rem; }
 
@@ -870,8 +879,7 @@ footer .row:last-child p { font-size: 0.8rem; }
   }
 }
 
-/*
-COLOR SCHEMES
+/* COLOR SCHEMES
 dark-blue : #2B2B48
 brown : #8B5A52
 white: #F9F3EF
