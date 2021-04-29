@@ -373,10 +373,8 @@ input:not(:checked) + label {
 .project {
   position: relative;
   padding-top: 1rem;
-  padding-left: 1rem;
   margin-top: 0.8rem;
   border-top: 1px solid #8B5A52;
-  border-left: 1px solid #8B5A52;
 }
 
 .desktop-img {
@@ -821,10 +819,7 @@ footer .row:last-child p { font-size: 0.8rem; }
     margin-bottom: 0;
   }
 
-  .project {
-    padding-top: 0.5rem;
-    padding-left: 0.5rem;
-  }
+  .project { padding-top: 0.5rem; }
 
   .graphic-img {
     width: 70%;
