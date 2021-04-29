@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Kristin Rodrigo Website</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="stylesheet-oldversion.css">
     <link rel="icon" href="img/KR-logo-tab.png" type="image/icon">
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <!--ICONS-->
@@ -136,8 +136,17 @@
             <p class="tools-text">Tools: HTML/CSS, Bootstrap</p>
           </div>
 
-          <div class="expo-box margin-bottom">
-            <div class="project">
+          <div class="expo-box">
+            <input type="radio" id="plantita" name="webdev-project" value="plantita" checked>
+            <label for="plantita">Plantita</label>
+
+            <input type="radio" id="sushimenu" name="webdev-project" value="sushimenu">
+            <label for="sushimenu">Sushi Mania</label>
+
+            <input type="radio" id="contactform" name="webdev-project" value="contactform">
+            <label for="contactform">Contact Form</label>
+
+            <div id="content-plantita" class="project">
               <a href=" https://rodrigokristin.github.io/plantita-landingpage/plantita-landingpage.html" target="_blank">
                 <img class="desktop-img overlay shadow-effect" src="img/work-thumbnail-desktop-landingpage.jpg">
                 <img class="mobile-img overlay shadow-effect" src="img/work-thumbnail-mobile-landingpage.jpg">
@@ -146,9 +155,7 @@
               </a>
             </div>
 
-            <div class="scroll">scroll</div>
-
-            <div class="project">
+            <div id="content-sushimenu" class="project">
               <a href="https://rodrigokristin.github.io/sushimenu/sushimenu.html" target="_blank">
                 <img class="desktop-img overlay shadow-effect" src="img/work-thumbnail-desktop-sushimenu.jpg">
                 <img class="mobile-img overlay shadow-effect" src="img/work-thumbnail-mobile-sushimenu.jpg">
@@ -157,18 +164,15 @@
               </a>
             </div>
 
-            <div class="scroll">scroll</div>
-
-            <div class="project">
+            <div id="content-contactform" class="project">
               <a href="https://rodrigokristin.github.io/contactform/contactform.html" target="_blank">
                 <img class="desktop-img overlay shadow-effect" src="img/work-thumbnail-desktop-form.jpg">
                 <img class="mobile-img overlay shadow-effect" src="img/work-thumbnail-mobile-form.jpg">
                 <span class="hovercontent">Simple and responsive contact form</span>
               </a>
             </div>
-
-          </div>
-        </div>
+          </div><!--END EXPO-BOX-->
+        </div><!--END WEBDEV WORKS-->
 
         <hr>
 
@@ -181,44 +185,49 @@
           </div>
 
           <div class="graphic expo-box">
-            <div class="project">
+            <input type="radio" id="pizzatime" name="graphic-project" value="pizzatime" checked>
+            <label for="pizzatime">PizzaTime</label>
+
+            <input type="radio" id="moam" name="graphic-project" value="moam">
+            <label for="moam">MOAM</label>
+
+            <input type="radio" id="qualligraphy" name="graphic-project" value="qualligraphy">
+            <label for="qualligraphy">Qualligraphy</label>
+
+            <input type="radio" id="others" name="graphic-project" value="others">
+            <label for="others">Others</label>
+
+            <div id="content-pizzatime" class="project">
               <a href="https://drive.google.com/file/d/1cfNKg0LRfijpG74ZmBrliy-6wvuf0Gae/view?usp=sharing" target="_blank">
                 <img class="graphic-img overlay shadow-effect" src="img/graphicwork-thumbnail-pizzatime-logo.jpg">
                 <span class="hovercontent">Simple logo for a made-up fast food chain named "PizzaTime"</span>
               </a>
             </div>
 
-            <div class="scroll">scroll</div>
-
-            <div class="project">
+            <div id="content-moam" class="project">
               <a href="https://drive.google.com/file/d/1VaGqritDA0TLc9dXBVKvLZj8iwIpzaff/view?usp=sharing" target="_blank">
                 <img class="graphic-img overlay shadow-effect" src="img/graphicwork-thumbnail-moam-logo.jpg">
                 <span class="hovercontent">Visual identity for a future Optical art museum in Milan</span>
               </a>
             </div>
 
-            <div class="scroll">scroll</div>
-
-            <div class="project">
+            <div id="content-qualligraphy" class="project">
               <a href="https://drive.google.com/file/d/1PA74BoOD7AWJE8Bxhra_vitvEusTjfa8/view?usp=sharing" target="_blank">
                 <img class="graphic-img overlay shadow-effect" src="img/graphicwork-thumbnail-qualligraphy-font.jpg">
                 <span class="hovercontent">"Qualligraphy" - personalized font</span>
               </a>
             </div>
 
-            <div class="scroll">scroll</div>
-
-            <div class="project">
+            <div id="content-others" class="project">
               <a href="https://drive.google.com/drive/folders/1t4R8wIxRNyeIq49ex6ak0Zi23igQBBA3?usp=sharing" target="_blank">
                 <img class="graphic-img overlay shadow-effect" src="img/graphicwork-thumbnail-other-projects.jpg">
                 <span class="hovercontent">Other projects</span>
               </a>
             </div>
+          </div><!--END EXPO-BOX-->
 
-          </div>
-
-        </div>
-      </div><!--END WORKS-->
+        </div><!--END GRAPHIC WORKS-->
+      </div>
 
       <!--CONTACTS-->
       <div id="contact"></div>
